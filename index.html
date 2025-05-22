@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Кутузов Роман — Python Fullstack-разработчик | Создание сайтов, Telegram-ботов и API</title>
+
+  <meta name="description" content="Я — Кутузов Роман, Python Fullstack-разработчик. Создаю сайты под ключ, Telegram-ботов, mini-apps, API и парсеры. Автоматизирую бизнес-процессы.">
+  <meta name="keywords" content="Python разработчик, Fullstack, веб-разработка, сайты под ключ, Telegram-боты, mini-apps, API, парсеры, автоматизация, Django, Flask, JavaScript, разработка сайтов, фуллстек-разработчик">
+  <meta name="author" content="Кутузов Роман">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon_io/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+ <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(102068504, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-96NTGVP7D5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-96NTGVP7D5');
+</script>
+
+<noscript><div><img src="https://mc.yandex.ru/watch/102068504" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+
+        <h1 class="sitename">Kutuzov Roman Dev</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Главная</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#features">Технологии</a></li>
+          <li><a href="#portfolio">Проекты</a></li>
+          <li><a href="#faq">Вопрос–Ответ</a></li>
+          <li><a href="#footer">Контакты</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/main_photo.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2>Добро пожаловать!</h2>
+            <p>Я — <span class="typed" data-typed-items="Fullstack-разработчик, создаю сайты под ключ, создаю mini-apps и телеграм-ботов, создаю парсеры и скрапперы, автоматизацирую бизнес-процессы, создаю API и веб-приложения">фуллстек разработчик</span></p>
+
+            <p>Помогаю бизнесу экономить время, сокращать ошибки и запускать цифровые решения быстрее.</p>
+            <a href="https://t.me/roman_kutuzov_dev" class="btn-get-started">Связаться со мной</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Услуги</h2>
+        <p>Полный стек веб-разработки и автоматизации</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/fullstack.png" alt="Fullstack" class="mb-3" width="120">
+              <h4>Фуллстек разработка</h4>
+              <p>Создаю сайты и веб-приложения любой сложности: фронт + бэк + базы данных</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/telegram_1.svg" alt="Telegram Bots" class="mb-3" width="64">
+              <h4>Telegram-боты</h4>
+              <p>Создание и автоматизация Telegram-ботов, интеграция с CRM и API</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/selenium.png" alt="Парсеры и скрапперы" class="mb-3" width="64">
+              <h4>Парсеры и скрапперы</h4>
+              <p>Собираю и обрабатываю данные с сайтов: Selenium, BeautifulSoup, Scrapy</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/restapi.png" alt="API и интеграции" class="mb-3" width="64">
+              <h4>API</h4>
+              <p>Разработка REST API, интеграции с внешними сервисами, OpenAI, платёжные системы</p>
+            </div>
+          </div>
+    
+         
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/python.png" alt="Автоматизация" class="mb-3" width="64">
+              <h4>Автоматизация</h4>
+              <p>Сценарии, cron задачи, обработка писем, генерация отчетов, авторассылки</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/miniapp.png" alt="Mini Apps" class="mb-3" width="64">
+              <h4>Telegram Mini Apps</h4>
+              <p>Разработка мини-приложений с авторизацией и платежами</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/html_css.png" alt="Frontend" class="mb-3" width="64">
+              <h4>Фронтенд</h4>
+              <p>JavaScript, HTML, CSS, Bootstrap, адаптивная вёрстка, интеграция с API</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="800">
+            <div class="service-item position-relative text-center">
+              <img src="assets/img/services/django.svg" alt="Backend" class="mb-3" width="64">
+              <h4>Бэкенд</h4>
+              <p>Django, Django REST Framework, Flask,  — всё, что нужно для стабильной логики веб решения.</p>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- /Services Section -->
+    
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Обо мне</h2>
+        <p><span>Кратко</span> <span class="description-title">о специалисте</span></p>
+      </div>
+    
+      <div class="container">
+        <div class="row gy-5">
+    
+          <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+            <h3>Фуллстек разработчик с 5 летним опытом веб-разработки и автоматизации</h3>
+            <p>
+              Привет! Меня зовут Роман, я разработчик, который превращает идеи в работающие продукты. Специализируюсь на разработке CRM-систем, сайтов, веб-приложений, Telegram-ботов и mini apps, парсеров, скраперов,  а также автоматизации бизнес-процессов. 
+              Умею проектировать архитектуру, писать бэкенд с нуля, интегрировать сторонние API и работать с базами данных. Помогаю клиентам сэкономить время, улучшить интерфейсы и наладить интеграции между системами.
+            </p>
+            <a href="https://t.me/roman_kutuzov_dev" target="_blank" class="about-btn align-self-center align-self-xl-start"><span>Написать в Telegram</span> <i class="bi bi-telegram"></i></a>
+          </div>
+    
+          <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+    
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-code-slash"></i>
+                <h4><a href="#" class="stretched-link">Технологии</a></h4>
+                <p>Python, JavaScript, Django, DRF, SQLite, PostgreSQL, MySQL, HTML/CSS, Bootstrap 4/5, Docker, WebSocket, SQLAlchemy, Pandas, Numpy</p>
+              </div>
+    
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-lightning-charge"></i>
+                <h4><a href="#" class="stretched-link">Автоматизация</a></h4>
+                <p>Selenium, BeautifulSoup, Celery, Apscheduler, asyncio, threading, multiprocessing, cron-задачи, авторассылки, sms-сервер, мониторинг</p>
+              </div>
+    
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-tools"></i>
+                <h4><a href="#" class="stretched-link">CRM и API</a></h4>
+                <p>Проектирование и разработка CRM с нуля, IP-телефония, интеграции с внешними API, Telegram API (PyTelegram, Telethon, aiogram), Mini Apps</p>
+              </div>
+    
+              <div class="col-md-6 icon-box position-relative">
+                <i class="bi bi-check-circle"></i>
+                <h4><a href="#" class="stretched-link">Дополнительно</a></h4>
+                <p>Знание английского на уровне чтения техдокументации. Открыт к фрилансу, удалёнке и новым проектам.</p>
+              </div>
+    
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+    </section>
+    
+    <!-- Services Section -->
+   
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Технологии</h2>
+        <p><span>Что</span> <span class="description-title">я предлагаю</span></p>
+      </div>
+    
+      <div class="container">
+        <div class="row gy-4">
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <i class="bi bi-window" style="color: #ffbb2c;"></i>
+              <h3>Разработка сайтов</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="features-item">
+              <i class="bi bi-terminal" style="color: #5578ff;"></i>
+              <h3>Создание CRM</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="features-item">
+              <i class="bi bi-robot" style="color: #e80368;"></i>
+              <h3>Боты и автоматизация</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="features-item">
+              <i class="bi bi-diagram-3" style="color: #e361ff;"></i>
+              <h3>Интеграции с API</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="features-item">
+              <i class="bi bi-bar-chart" style="color: #47aeff;"></i>
+              <h3>Сбор и анализ данных</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="features-item">
+              <i class="bi bi-gear" style="color: #ffa76e;"></i>
+              <h3>Веб-приложения</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="features-item">
+              <i class="bi bi-cart-check" style="color: #11dbcf;"></i>
+              <h3>Интернет-магазины</h3>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
+            <div class="features-item">
+              <i class="bi bi-phone" style="color: #4233ff;"></i>
+              <h3>Адаптивные интерфейсы</h3>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="assets/img/second_photo.jpg" alt="">
+    
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Готовы начать?</h3>
+              <p>Свяжитесь со мной и обсудим, как я могу помочь вам реализовать ваш проект. Я открыт для интересных задач и продуктивного сотрудничества.</p>
+              <a href="https://t.me/roman_kutuzov_dev" target="_blank" class="cta-btn" >Связаться  <i class="bi bi-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Проекты</h2>
+        <p><span>Посмотрите мои</span> <span class="description-title">реализованные решения</span></p>
+      </div><!-- End Section Title -->
+      
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Все</li>
+            <li data-filter=".filter-product">Сайты</li>
+            <li data-filter=".filter-branding">Веб-приложения</li>
+            <li data-filter=".filter-app">Боты и автоматизации</li>
+
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+           <!-- Marriott Bot -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/marriot.png" class="img-fluid" alt="Marriott Bot">
+              <div class="portfolio-info">
+                <h4>Marriott PromoBot</h4>
+                <p>Telegram-бот, который ищет и проверяет актуальные промокоды для бронирований на сайте Marriott.</p>
+              </div>
+            </div>
+
+            <!-- Разработка интернет-магазинов -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/shop.jpg" class="img-fluid" alt="Интернет-магазин по продаже кроссовок">
+              <div class="portfolio-info">
+                <h4>Интернет-магазин</h4>
+                <p>Полный цикл разработки: от дизайна до подключения платежной системы webpay и развертывание на серверах</p>
+              </div>
+            </div>
+
+
+         
+
+            <!-- Radisson Bot -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/radisson.jpg" class="img-fluid" alt="Radisson Bot">
+              <div class="portfolio-info">
+                <h4>Radisson Deal Scanner</h4>
+                <p>Скрипт-бот, отслеживающий и тестирующий выгодные предложения и коды бронирования для отелей Radisson.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/bybit.png" class="img-fluid" alt="Copy Trading Bot">
+              <div class="portfolio-info">
+                <h4>Copy Trading Bot</h4>
+                <p>Интеллектуальный бот, автоматически копирующий сделки успешных трейдеров с учётом рисков и лимитов.</p>
+              </div>
+            </div>
+            
+            <!-- Алгоритмический бот, анализирующий рынок -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/binance.jpg" class="img-fluid" alt="Market Analysis Bot">
+              <div class="portfolio-info">
+                <h4>Algo Market Bot</h4>
+                <p>Алгоритмический бот, анализирующий рынок в реальном времени и определяющий точки входа и выхода на основе технических индикаторов и анализа данных.</p>
+              </div>
+            </div>
+
+            <!-- Hyatt Bot -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/hyatt.jpg" class="img-fluid" alt="Hyatt Bot">
+              <div class="portfolio-info">
+                <h4>Hyatt Promo Scanner</h4>
+                <p>Telegram-бот для автоматического поиска и валидации спецпредложений на сайте Hyatt Hotels.</p>
+              </div>
+            </div>
+
+
+            <!-- Twitch Ad Automation Bot -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/twitch.avif" class="img-fluid" alt="Twitch Ad Bot">
+              <div class="portfolio-info">
+                <h4>Twitch Ad Automation</h4>
+                <p>Разработка ботов для имитации пользовательской активности на стриминговой платформе Twitch в рекламных целях. Использовались потоки, прокси и автоматизация браузера.</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/kolesakz.png" class="img-fluid" alt="Kolesa.kz Bot">
+              <div class="portfolio-info">
+                <h4>Kolesa.kz Auto Scanner</h4>
+                <p>Бот для мониторинга новых объявлений на Kolesa.kz. Ищет машины ниже рыночной цены и отправляет уведомления в Telegram. Использовался парсинг HTML и регулярные выражения для анализа цен.</p>
+              </div>
+            </div>
+
+          
+         <!-- Custom CRM System -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/crm-system.png" class="img-fluid" alt="CRM система">
+              <div class="portfolio-info">
+                <h4>CRM-система с IP-телефонией</h4>
+                <p>Разработка CRM с нуля: управление клиентами, задачами, заказами, встроенная IP-телефония, аналитика и отчеты. Интеграции с email, Telegram и веб-формами.</p>
+              </div>
+            </div>
+<!-- QR-коды для Честного Знака -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/znak.webp" class="img-fluid" alt="QR генератор Честного знака">
+              <div class="portfolio-info">
+                <h4>Веб-приложение с QR-генератором Честного Знака</h4>
+                <p>Веб-приложение с админкой для генерации и печати QR-кодов по ГОСТ с поддержкой термопринтеров на Ubuntu.</p>
+              </div>
+            </div>
+
+         
+         <!-- Калькулятор замеров окон -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/windows-calc.svg" class="img-fluid" alt="Калькулятор для замерщика">
+              <div class="portfolio-info">
+                <h4>Калькулятор для замерщика</h4>
+                <p>Адаптивное веб-приложение для расчета стоимости оконных конструкций на месте замера.</p>
+              </div>
+            </div>
+
+       
+       
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/scripts.jpg" class="img-fluid" alt="Автоматизация бизнес-процессов">
+              <div class="portfolio-info">
+                <h4>Автоматизация бизнес-процессов</h4>
+                <p>Скрипты, интеграции, системные решения для роста эффективности компаний.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/e-commerce.png" class="img-fluid" alt="E-commerce Telegram Integration">
+              <div class="portfolio-info">
+                <h4>E-commerce проект с Telegram</h4>
+                <p>Интернет-витрина с выбором товара, обратной связью и Telegram-уведомлениями</p>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            
+
+              <!-- Hilton Bot -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/hilton.jpg" class="img-fluid" alt="Hilton Bot">
+              <div class="portfolio-info">
+                <h4>Hilton Code Finder</h4>
+                <p>Бот на Python, автоматизирующий подбор действующих скидок и кодов на официальном сайте Hilton.</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/website.png" class="img-fluid" alt="Разработка сайтов">
+              <div class="portfolio-info">
+                <h4>Веб-сайты</h4>
+                <p>Создание современного адаптивного сайта, любой сложности от визиток и корпоративных до сложного веб-приложения</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/landing.png" class="img-fluid" alt="Лендинги">
+              <div class="portfolio-info">
+                <h4>Лендинги под ключ</h4>
+                <p>Разработка одностраничных сайтов для презентации товаров, услуг или событий с адаптивной вёрсткой и высокой конверсией</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Pricing Section -->
+  
+    
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span>Часто задаваемые</span> <span class="description-title">вопросы</span></p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="row justify-content-center">
+    
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+    
+            <div class="faq-container">
+    
+              <div class="faq-item faq-active">
+                <h3>Вы разрабатываете проекты под ключ?</h3>
+                <div class="faq-content">
+                  <p>Да, я полностью веду проект от идеи до запуска: проектирование, дизайн, разработка фронтенда и бэкенда, подключение оплаты, аналитики и сопровождение после запуска.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Можно ли вам доверить автоматизацию бизнес-процессов?</h3>
+                <div class="faq-content">
+                  <p>Да, я интегрировал множество решений: CRM, IP-телефонию, ботов для обработки заявок, парсеры, калькуляторы, системы уведомлений и многое другое. Все под реальные задачи бизнеса.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Какие технологии вы используете в разработке?</h3>
+                <div class="faq-content">
+                  <p>Python, Django,Django Rest Framework, JavaScript, Telegram Bot / Mini app, SQLite/PostgreSQL/MySQL, Docker, Selenium, BeautifulSoup, HTML/CSS, Bootstrap 4/5 и др. Выбор зависит от задачи.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Делаете ли вы Telegram-ботов?</h3>
+                <div class="faq-content">
+                  <p>Да, у меня большой опыт в разработке ботов для Telegram: от рассылок и заказов до парсинга и интеграций с базами, CRM и внешними сервисами.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+    
+              <div class="faq-item">
+                <h3>Сколько стоит разработка?</h3>
+                <div class="faq-content">
+                  <p>Стоимость зависит от задачи, объема и сроков. Я всегда делаю предварительную оценку, предлагаю понятную смету и гибкий подход: почасовая оплата, фиксированный проект или абонентская поддержка.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+            </div>
+    
+          </div><!-- End Faq Column-->
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- /Faq Section -->
+    
+    <!-- Team Section -->
+
+    <!-- Team 2 Section -->
+  <!-- Contact Section -->
+    
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Kutuzov Roman Dev</span>
+          </a>
+          <p>Я занимаюсь разработкой веб-сайтов любой сложности, интернет-магазинов, интеграцией Telegram-ботов, автоматизацией бизнес-процессов и многим другим. Подбираю решения под задачи клиентов.</p>
+        </div>
+  
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#services">Услуги</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Услуги</h4>
+          <ul>
+            <li>Разработка сайтов</li>
+            <li>Интернет-магазины</li>
+            <li>Интеграция Telegram</li>
+            <li>Боты, парсеры, скраперы</li>
+            <li>Автоматизация</li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Связаться со мной</h4>
+          <p>Гродно, Беларусь</p>
+          <p class="mt-4"><strong>Телефон:</strong> <a href="tel:+375298004975">+375 (29) 800-49-75</a></p>
+          <p><strong>Email:</strong> <a href="mailto:roman.kutuzov.dev@gmail.com">roman.kutuzov.dev@gmail.com</a></p>
+          <p><strong>Telegram:</strong> <a href="https://t.me/roman_kutuzov_dev">@roman_kutuzov_dev</a></p>
+        </div>
+      </div>
+    </div>
+  
+  
+  </footer>
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    
+  </div>
+
+
+  <script src="assets/typed.js/typed.umd.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
